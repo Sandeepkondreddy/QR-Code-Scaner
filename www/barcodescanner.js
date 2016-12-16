@@ -121,7 +121,7 @@ BarcodeScanner.prototype.scan = function (successCallback, errorCallback, config
             );
         };
 
-        //-------------------------------------------------------------------
+        //---------------------------------------------------------------------
         BarcodeScanner.prototype.encode = function (type, data, successCallback, errorCallback, options) {
             if (errorCallback == null) {
                 errorCallback = function () {
